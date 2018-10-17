@@ -1,15 +1,23 @@
-.card-panel{
+.card-panel, .card{
     width: 390px;
-    height: 300px;
-    background: url(https://cdn.shopify.com/s/files/1/1808/7797/products/fry_meme_enamel_pin_1_800x.jpeg?v=1525442058) center center/cover;
-    background-image: url(https://cdn.shopify.com/s/files/1/1808/7797/products/fry_meme_enamel_pin_1_800x.jpeg?v=1525442058);
+    height: 260px;
+    /* background: url(https://cdn.shopify.com/s/files/1/1808/7797/products/fry_meme_enamel_pin_1_800x.jpeg?v=1525442058) center center/cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/1808/7797/products/fry_meme_enamel_pin_1_800x.jpeg?v=1525442058); */
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
     background-repeat-x: initial;
     background-repeat-y: initial;
     background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
+    background-origin: initial; 
+    background-clip: initial; 
     background-color: initial;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.card-content{
+    
+        /* pointer-events: none; */
+   
 }

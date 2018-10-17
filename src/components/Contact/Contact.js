@@ -1,22 +1,30 @@
-import React from 'react';
-import './Contact.css'
-import Button from "../Button"
+import React from "react";
+import "./Contact.css";
+import Button from "../Button";
+import Wrapper from "../Wrapper";
+import Scrollspy from "react-scrollspy";
 
-  
 const Contact = () => (
-    
-    <div id="section-3" className='hero flex contact'>
-    <div className='section flex'>
-        <div className='hero-message'>
-            <span >Contact</span>    
+  <div id="section-3" className="hero flex contact">
+    <Wrapper>
+      <div className="subject flex">
+        <Scrollspy
+          items={["section-1", "section-2", "section-3"]}
+          currentClassName="is-current"
+          style={{ flexDirection: "row", display: "flex" }}
+        >
+          <Button text="About" href="#section-1" />
+          <Button text="Projects" href="#section-2" />
+          <Button text="Contact" href="#section-3" />
+        </Scrollspy>
+
+        <div className="hero-message">
+          <span> Contact</span>
         </div>
-        <Button text='About'/>
-        <Button text='Projects'/>
-        <Button text='Contact'/>
-
-    </div>
-    </div>
-
-)
+        
+      </div>
+    </Wrapper>
+  </div>
+);
 
 export default Contact;
