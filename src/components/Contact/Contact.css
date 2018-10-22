@@ -1,11 +1,14 @@
 .contact{
-    background-color: #252934;
+    background-color: #272727;
+    position: relative;
 }
 
 .form{
-    border-width: 6px;
+    /* border-width: 6px;
     border-color: palevioletred;
-    border-style: double
-};
+    border-style: double; */
+    background-color: #616161;
+}
+
 
  

@@ -1,4 +1,11 @@
-.nav {
+nav {
+    background-color: #272727;
+    box-shadow: none;
+}
+
+
+
+/* .nav {
     width: 100%;
     background-color: black;
     padding: 2rem;
@@ -56,4 +63,4 @@ ul {
 .navInstructions:hover {
     cursor: pointer;
     color: goldenrod !important;
-  }
+  } */

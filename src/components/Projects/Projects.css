@@ -1,24 +1,6 @@
 .projects{
     background-color: #f5f5f5;
+    position: relative;
 }
 
 
-.flex-project {
-    /* height: 100vh; */
-    text-align: center;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    display: flex;
-    flex-direction: row-wrap;
-    flex-wrap: wrap;
-}
-/* 
-.flex-row{
-    flex-direction: row;
-    display: inline-flex;
-} */

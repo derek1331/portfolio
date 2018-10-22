@@ -7,7 +7,7 @@ import { Card, CardTitle } from "react-materialize";
 class Cardy extends React.Component {
   render() {
     return (
-      <Card className="hoverable"
+      <Card className=""
         header={<CardTitle reveal image={this.props.bg} waves="light" />}
         title={this.props.title}
         reveal={
@@ -18,13 +18,6 @@ class Cardy extends React.Component {
         }
       />
     );
-    // return (
-
-    //   <div class="card-panel" onMouseEnter={this.handleFlip} onMouseLeave={this.handleFlip} style= {flip}>
-
-    //   </div>
-
-    // );
   }
 }
 

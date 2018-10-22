@@ -1,33 +1,24 @@
 import React from "react";
 import "./About.css";
 import Button from "../Button";
-import Wrapper from "../Wrapper";
 import Scrollspy from "react-scrollspy";
-
-
+import ScrollToNext from "../ScrollToNext";
 
 const About = () => (
-  <div id="section-1" className="hero flex about">
-    <Wrapper>
-      <div className="subject flex">
-        <Scrollspy
-          items={["section-1", "section-2", "section-3"]}
-          currentClassName="is-current"
-          style={{ flexDirection: "row", display: "flex" }}
-        >
-          <Button text="About" href="#section-1" />
-          <Button text="Projects" href="#section-2" />
-          <Button text="Contact" href="#section-3" />
-        </Scrollspy>
-
-        <div className="hero-message">
-          <span> Contact</span>
+  <div id="section-1" className="hero about ">
+    <div className=" container subject">
+      <div className="row">
+        <div className="col s4 offset-s4">
+          <h1 className="center-align"> About</h1>
         </div>
-        
       </div>
-    </Wrapper>
+
+    </div>
+      <ScrollToNext pageSelector="#section-2"/>
+
+
   </div>
+
 );
 
 export default About;
-

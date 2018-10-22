@@ -3,16 +3,18 @@ import "./Nav.css"
 
 
 const Nav = props => (
-    <nav>
+  <div class="navbar-fixed">
+  <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#section-1">About</a></li>
+        <li><a href="#section-2">Projects</a></li>
+        <li><a href="#section-3">Contact</a></li>
       </ul>
     </div>
   </nav>
+</div>
+      
         
 )
 
