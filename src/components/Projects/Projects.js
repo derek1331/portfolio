@@ -17,7 +17,7 @@ const Projects = () => (
       </div>
       <div className="row">
           {project.map(project => (
-            <div className="col s4">
+            
               <Cardy
                 bg={project.image}
                 id={project.id}
@@ -25,7 +25,7 @@ const Projects = () => (
                 title={project.title}
                 description={project.description}
               />
-            </div>
+            
           ))}
         </div>
     </div>

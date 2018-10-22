@@ -14,9 +14,9 @@ const Contact = () => (
 
           <div className="">
             <Row className="form">
-              <Input className="" s={12} label="Name" validate />
-              <Input s={12} label="Email" validate type="email" />
-              <Input s={12} type="textarea" label="Message" validate />
+              <Input className="" s={12} placeholder="Name" validate />
+              <Input s={12} placeholder="Email" validate type="email" />
+              <Input s={12} type="textarea" placeholder="Message" validate />
             </Row>
           </div>
         </div>
