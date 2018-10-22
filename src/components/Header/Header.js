@@ -17,9 +17,9 @@ const Header = () => (
         items={["section-1", "section-2", "section-3"]}
         currentClassName="is-current"
       >
-        <Button className="hero-button" text="About" href="#section-1" />
-        <Button className="hero-button" text="Projects" href="#section-2" />
-        <Button className="hero-button" text="Contact" href="#section-3" />
+        <Button className="hero-button" text="View My Work" href="#section-1" />
+        {/* <Button className="hero-button" text="Projects" href="#section-2" />
+        <Button className="hero-button" text="Contact" href="#section-3" /> */}
       </Scrollspy>
     </div>
   </div>

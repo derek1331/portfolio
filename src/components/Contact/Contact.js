@@ -3,6 +3,7 @@ import "./Contact.css";
 import Button from "../Button";
 import Wrapper from "../Wrapper";
 import Scrollspy from "react-scrollspy";
+import { Row, Input, Icon } from "react-materialize";
 
 const Contact = () => (
   <div id="section-3" className="hero flex contact">
@@ -21,7 +22,17 @@ const Contact = () => (
         <div className="hero-message">
           <span> Contact</span>
         </div>
-        
+
+        <div className="flex">
+          <Row className="form white">
+            <Input className="" s={12} label="Name" validate>
+            </Input>
+            <Input s={12} label="Email" validate type="email">
+            </Input>
+            <Input s={12} type='textarea' label="Message" validate />
+
+          </Row>
+        </div>
       </div>
     </Wrapper>
   </div>

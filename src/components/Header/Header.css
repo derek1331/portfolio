@@ -3,17 +3,21 @@
     height: calc(100vh);
 }
 
-.hero::before {
+.header{
+   background-color:  #252934
+}
+
+/* .hero::before {
 
     content: "";
     z-index: -1;
-}
+} */
 
 
 
 .flex {
     /* height: 100vh; */
-    text-align: center;
+    /* text-align: center; */
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -48,7 +52,7 @@
 
 
 /* Header only */
-.header::before {
+/* .header::before {
     opacity: .4;
     position: absolute;
     top: 0;
@@ -59,7 +63,7 @@
     background-size: cover;
 
 
-}
+} */
 
 @media screen and (min-width: 600px) {
     .hero-message {
@@ -113,6 +117,3 @@
 }
 
 /* About Only */
-.about {
-    background-color: blue;
-}

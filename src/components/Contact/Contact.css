@@ -1,3 +1,11 @@
 .contact{
-    background-color: mediumaquamarine;
+    background-color: #252934;
 }
+
+.form{
+    border-width: 6px;
+    border-color: palevioletred;
+    border-style: double
+};
+
+ 

@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import Button from "../Button";
 import Wrapper from "../Wrapper";
-import Card from "../Card";
+import Cardy from "../Card";
 import Scrollspy from "react-scrollspy";
 import project from "./project.json";
 
@@ -25,8 +25,8 @@ const Projects = () => (
         </div>
         <div className="flex-project">
         {project.map(project => (
-          <Card
-            bg={"url(" + project.image +")"}
+          <Cardy
+            bg={project.image}
             id={project.id}
             key={project.id}
             title={project.title}

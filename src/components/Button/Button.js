@@ -2,7 +2,7 @@ import React from "react";
 import "./Button.css";
 
 const Button = props => (
-  <div className={props.className}>
+  <div className="button">
     <a class="waves-effect waves-light btn" href={props.href}>
       {props.text}{" "}
     </a>
