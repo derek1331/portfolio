@@ -1,23 +1,12 @@
 .activator,
-.card, .card-image {
+.card-panel {
     width: 390px;
-    height: 235px;
-    background: fill center/cover; 
-    background-position-x: center;
-    background-position-y: center; 
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial; 
-    background-clip: initial; 
-    background-color: initial; 
+    height: 235px; 
     border-radius: 0px; 
     margin: 0px;
     overflow: hidden;
 }
 
-/* .card-content {
-    
-        pointer-events: none;
-   
+/* .material-icons{
+    float:  left !important;
 } */

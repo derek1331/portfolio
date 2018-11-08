@@ -1,1 +1,1 @@
-export { default } from './ScrollToNext';
+export { ScrollButton, ScrollToNext } from './ScrollToNext';

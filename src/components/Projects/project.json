@@ -1,40 +1,52 @@
-[
-  {
+[{
     "id": 1,
-    "title":"SandwichDash",
+    "title": "SandwichDash",
     "image": "/images/Sandwich.PNG",
-    "description": "Javascript"
-    
- 
+    "description": "Concept for a Sandwich shop that only delivers for one hour each day. Like the countdown says everyone has from 12pm to 10am to submit their orders.",
+    "tech": "Javacript, Bootstrap, Node.js, Express, MySQL"
+
+
+
   },
   {
     "id": 2,
-  
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    "title": "Memory-Game",
+    "image": "/images/Sandwich.PNG",
+    "description": "Clicky Game is a front end React app that give the user a fun memory test game with images. The data that keeps track of score and images is stored in a JSON file. In this game your score is determined by how many images you can click with out clicking one that you have already clicked. What makes it challenging is that there is a method in react that shuffles all images everytime you click one. Each successful click adds one point to your score and the top score is also kept track of. Have fun!",
+    "tech": "Javascript, CSS, Bootsrap, React.js, Node.js"
 
   },
   {
     "id": 3,
-  
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
+    "title": "Giftastic",
+    "image": "/images/Sandwich.PNG",
+    "description": "Giftastic is a simple application making use of the [Giphy API](https://developers.giphy.com/) to display gifs to and alllows users can create their own buttons to search for different gifs.",
+    "tech": "HTML, CSS, Javascript, jQuery, AJAX"
+
 
   },
   {
     "id": 4,
- 
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png"
- 
+    "title": "Space Train Scheduler",
+    "image": "/images/Sandwich.PNG",
+    "description": "Space Train Scheduler is an application that allows users to submit train information to a database and observe the train arrival time update in realtime. I used Firebase as the realtime database to store the train information and Moment.js to work with dates and time more easily and display them to the user. Anytime the database is updates with a new train or the page is refreshed the train times will be updated.",
+    "tech": "HTML, Javascript ,Moment.js, Firebase"
+
   },
   {
     "id": 5,
-  
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423"
+    "title": "Burger",
+    "image": "/images/Sandwich.PNG",
+    "description": "Burger is a full-stack app using Javascript and Handlebars templating on the front end and Node / Express js with MySQL / Sequelize for the back end. The app allows you to create burgers that are saved in the database and that can either be left for other people to devour (Select and delete) or eaten by your self! It was a fun experimentation with SQL and Sequelize in a full-stack application!",
+    "tech": "HTML, CSS, Javacript, Handlebars.js, Node.js, Express.js, MySQL, Sequelize"
 
   },
   {
     "id": 6,
-  
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511"
+    "title": "OneDay in Denver",
+    "image": "/images/Sandwich.PNG",
+    "description": "OneDay in Denver is a day planner for those visiting Denver for just a day or those who are tired of doing the samething over and over agian whenever someone visits. It uses the Mearn Stack.",
+    "tech": "Javacript, CSS, React.js, MongoDB, Passport, Bcrypt"
 
   }
 

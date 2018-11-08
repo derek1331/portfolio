@@ -6,3 +6,29 @@
 .centered {
     margin: auto 0;
 }
+
+.page-header{
+    border-top: 3px;
+    border-bottom: 0px;
+    border-color: white;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    display: table;
+    margin: 0 auto;
+}
+.page-header-project{
+    border-top: 3px;
+    border-bottom: 0px;
+    border-color: #272727;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    display: table;
+    margin: 0 auto;
+}
+
+.header-wrapper{
+    padding-top: 40px !important;
+
+}

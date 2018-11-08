@@ -3,7 +3,7 @@ import "./Button.css";
 
 const Button = props => (
   <div className="button">
-    <a class="waves-effect waves-light btn" href={props.href}>
+    <a className="modal-button waves-effect waves-light btn" href={props.href}>
       {props.text}{" "}
     </a>
   </div>

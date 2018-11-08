@@ -4,11 +4,12 @@
 }
 
 .form{
-    /* border-width: 6px;
-    border-color: palevioletred;
-    border-style: double; */
     background-color: #616161;
 }
 
+.social{
+    padding:10px;
+    color: #ff652f;
+}
 
  

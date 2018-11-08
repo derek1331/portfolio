@@ -2,27 +2,37 @@ import React from "react";
 import "./Contact.css";
 import Button from "../Button";
 import Scrollspy from "react-scrollspy";
-import { Row, Input, Icon } from "react-materialize";
-import ScrollToPrevious from "../ScrollToPrevious"
+import ScrollToPrevious from "../ScrollToPrevious";
+import Icon from "../Icon"
 
 const Contact = () => (
   <div id="section-3" className="hero contact">
     <div className="subject container">
       <div className="row">
-        <div className="col s4 offset-s4">
-          <h1 className="center-align">Contact</h1>
+        <div className="col s4 offset-s4 center header-wrapper">
+          <h1 className="">Contact</h1>
 
-          <div className="">
-            <Row className="form">
-              <Input className="" s={12} placeholder="Name" validate />
-              <Input s={12} placeholder="Email" validate type="email" />
-              <Input s={12} type="textarea" placeholder="Message" validate />
-            </Row>
-          </div>
-        </div>
-      </div>
+
+          <img
+            src="/images/scrapy.jpg"
+            alt=""
+            class="circle responsive-img"
+            style={{ height: "300px", width: "300px" }}
+          />
+            <br></br>
+          <a href="https://github.com/derek1331" target="_blank" ><Icon icon="fab fa-github fa-5x social"/></a>
+          <a href="https://www.linkedin.com/in/derekreed1331/" target="_blank" ><Icon icon="fab fa-linkedin fa-5x social"/></a>
+          <a href="mailto:1331derek@gmail.com" target="_blank" ><Icon icon="fas fa-envelope fa-5x social"/></a>
+
+            
+
+
+
     </div>
-    <ScrollToPrevious pageSelector="#section-2"/>
+    </div>
+      </div>
+
+    <ScrollToPrevious pageSelector="#section-2" />
   </div>
 );
 

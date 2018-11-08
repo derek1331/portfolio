@@ -46,4 +46,10 @@
 
 }
 
+.header-scroll{
+    cursor: pointer;
+    left: initial !important;
+    position: inherit !important; 
+    bottom: inherit !important;
+}
 /* About Only */

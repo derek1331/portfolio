@@ -35,7 +35,7 @@ class ScrollTop extends Component {
     const hideArrowClass = this.state.shouldShowScrollTopArrow ? "" : "hide";
     return (
       <div className="scroll-top" onClick={e => scrollToPageTop()}>
-        <div className={`arrow ${hideArrowClass}`} style={{ color: "#ff652f" }}>
+        <div className={`arrow ${hideArrowClass}`} style={{ color: "#14a76c" }}>
           <i class="fa fa-angle-double-up fa-3x" aria-hidden="true" />
 
           {/* <div className="to-top">To Top</div> */}
