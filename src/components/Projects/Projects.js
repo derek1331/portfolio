@@ -16,17 +16,19 @@ const Projects = () => (
           }}> Projects</h1>
         </div>
       </div>
-      <div className="row">
+      <div className="row main-text">
           {project.map(project => (
             
               <Cardy
-                bg={project.image}
                 id={project.id}
                 key={project.id}
                 title={project.title}
               ><ProjectModal
+              title={project.title}
               img={project.image}
               description={project.description}
+              href={project.demo}
+              tech={project.tech}
               
               
               />

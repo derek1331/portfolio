@@ -1,53 +1,63 @@
 [{
     "id": 1,
-    "title": "SandwichDash",
-    "image": "/images/Sandwich.PNG",
-    "description": "Concept for a Sandwich shop that only delivers for one hour each day. Like the countdown says everyone has from 12pm to 10am to submit their orders.",
-    "tech": "Javacript, Bootstrap, Node.js, Express, MySQL"
-
-
+    "title": "OneDay in Denver",
+    "image": "/images/denver.PNG",
+    "description": "OneDay in Denver is a day planner for those visiting Denver for just a day or those who are tired of doing the samething over and over again.",
+    "tech": "Javacript, React.js, MongoDB, Passport.js, Bcrypt",
+    "demo": "https://dayindenver.herokuapp.com/"
 
   },
+
+
   {
     "id": 2,
-    "title": "Memory-Game",
-    "image": "/images/Sandwich.PNG",
-    "description": "Clicky Game is a front end React app that give the user a fun memory test game with images. The data that keeps track of score and images is stored in a JSON file. In this game your score is determined by how many images you can click with out clicking one that you have already clicked. What makes it challenging is that there is a method in react that shuffles all images everytime you click one. Each successful click adds one point to your score and the top score is also kept track of. Have fun!",
-    "tech": "Javascript, CSS, Bootsrap, React.js, Node.js"
+    "title": "SandwichDash",
+    "image": "/images/sandy.PNG",
+    "description": "Concept for a Sandwich shop that only delivers for one hour each day. Like the countdown says everyone has from 12pm to 11am to submit their orders.",
+    "tech": "Javacript, Node.js, Express, MySQL",
+    "demo": "https://sandwichdash.herokuapp.com/"
+
+
 
   },
   {
     "id": 3,
-    "title": "Giftastic",
-    "image": "/images/Sandwich.PNG",
-    "description": "Giftastic is a simple application making use of the [Giphy API](https://developers.giphy.com/) to display gifs to and alllows users can create their own buttons to search for different gifs.",
-    "tech": "HTML, CSS, Javascript, jQuery, AJAX"
+    "title": "Memory Game",
+    "image": "/images/memory.PNG",
+    "description": "Memory Game is a game where you click on image and get a point. The catch is you can't click on the same image twice and it shuffles after each click",
+    "tech": "Javascript, React.js, Node.js",
+    "demo": "https://agile-lake-18261.herokuapp.com/"
 
 
   },
   {
     "id": 4,
-    "title": "Space Train Scheduler",
-    "image": "/images/Sandwich.PNG",
-    "description": "Space Train Scheduler is an application that allows users to submit train information to a database and observe the train arrival time update in realtime. I used Firebase as the realtime database to store the train information and Moment.js to work with dates and time more easily and display them to the user. Anytime the database is updates with a new train or the page is refreshed the train times will be updated.",
-    "tech": "HTML, Javascript ,Moment.js, Firebase"
+    "title": "Giftastic",
+    "image": "/images/gify.PNG",
+    "description": "Giftastic is a simple application making use of the Giphy API to display gifs. It comes with predifined searches but also allows users to create their own.",
+    "tech": "Javascript, jQuery, AJAX",
+    "demo": "https://derek1331.github.io/GifTastic/"
+
 
   },
   {
     "id": 5,
-    "title": "Burger",
-    "image": "/images/Sandwich.PNG",
-    "description": "Burger is a full-stack app using Javascript and Handlebars templating on the front end and Node / Express js with MySQL / Sequelize for the back end. The app allows you to create burgers that are saved in the database and that can either be left for other people to devour (Select and delete) or eaten by your self! It was a fun experimentation with SQL and Sequelize in a full-stack application!",
-    "tech": "HTML, CSS, Javacript, Handlebars.js, Node.js, Express.js, MySQL, Sequelize"
+    "title": "Space Train Scheduler",
+    "image": "/images/space.PNG",
+    "description": "Space Train Scheduler is an application that allows users to submit train information to a database and observe the train arrival time update in realtime. Anytime the database is updates with a new train or the page is refreshed the train times will be updated.",
+    "tech": "Javascript, Moment.js, Firebase",
+    "demo": "https://derek1331.github.io/Space-Train-Scheduler/"
 
   },
   {
     "id": 6,
-    "title": "OneDay in Denver",
-    "image": "/images/Sandwich.PNG",
-    "description": "OneDay in Denver is a day planner for those visiting Denver for just a day or those who are tired of doing the samething over and over agian whenever someone visits. It uses the Mearn Stack.",
-    "tech": "Javacript, CSS, React.js, MongoDB, Passport, Bcrypt"
+    "title": "Burger Time",
+    "image": "/images/burger.PNG",
+    "description": "Burger Time allows you to create burgers that are saved in the database and then can either be left for other people to devour (Select and delete) or eaten by your self!",
+    "tech": "Javacript, Handlebars.js, Node.js, Express.js, MySQL, Sequelize",
+    "demo": "https://burgerburgertime.herokuapp.com/"
 
   }
+
 
 ]

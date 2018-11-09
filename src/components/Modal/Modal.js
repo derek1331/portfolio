@@ -1,22 +1,44 @@
 import React from "react";
 import "./Modal.css";
-import { Modal, Button, Slider, Slide } from "react-materialize";
+import { Modal, Button, Icon, T } from "react-materialize";
 
 class ProjectModal extends React.Component {
   render() {
     return (
+     
       <Modal
-        // header='Modal Header'
+        actions={
+          <div>
+            <Button
+              node="a"
+              target="_blank"
+              href={this.props.href}
+              style={{ backgroundColor: "#14a76c" }}
+              className="left"
+            >
+              View Site
+            </Button>
+            <button style={{color: "#14a76c"}} className="btn waves-effect waves-light btn-flat modal-action modal-close">
+              Close
+            </button>
+          </div>
+        }
         fixedFooter
         trigger={<Button className="modal-button">Learn More</Button>}
-        style={{ width: "700px" }}
+        style={{ width: "700px",}}
       >
-        <img style={{maxWidth:"100%", height:"70%"}} src={this.props.img} />
+        <img style={{ maxWidth: "100%"}} src={this.props.img} />
 
-        <div style={{borderTop: "1px solid rgba(0,0,0,0.1)"}}className="modal-description">
+        <div className="modal-description">
+          <span style={{ fontSize: "1.64rem" }}>{this.props.title}</span>
+          <br />
+          <span style={{color:"#ff652f"}}>{this.props.tech}</span>
+          <hr />
           <span>{this.props.description}</span>
+          <br />
         </div>
       </Modal>
+      
     );
   }
 }

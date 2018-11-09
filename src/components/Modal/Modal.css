@@ -5,6 +5,7 @@
     border-width: 5px;
     color: black; */
     background-color: #14a76c;
+    margin-top: 30px;
 
 }
 
@@ -32,6 +33,30 @@
 }
 .modal-description{
     padding: 24px !important;
+}
+
+.modal-footer{
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    border: none !important;
+}
+
+.modal{
+    height: 77% !important;
+    max-height: 80% !important;
+}
+
+.btn-flat:active {
+    background-color: transparent !important;
+}
+
+.btn-flat:focus, .btn-flat:hover {
+    background-color: transparent !important;
+  
+}
+
+.btn-flat{
+    border: 1px solid #14a76c;
 }
 
 /* @media screen and (min-width: 600px)

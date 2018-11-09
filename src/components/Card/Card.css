@@ -5,6 +5,7 @@
     border-radius: 0px; 
     margin: 0px;
     overflow: hidden;
+    padding: 24px !important;
 }
 
 /* .material-icons{

@@ -13,20 +13,29 @@ const About = () => (
         </div>
       </div>
       <div className="row">
-        <div className="col s12 center-align ">
-          <span>
+        <div
+          className="col s6 offset-s3"
+        >
+        <div  style={{ border: "1px solid white", padding: "24px" }}>
+          <span className="left-align" style={{ fontSize: "1.3rem" }}>
             I was always good with computers growing up but that's where it
             ended. I figured it was time to be great with them. So I moved to
-            Denver and started my journey. Full Stack Developer. Skilled in
-            JavaScript, HTML, CSS, Node.js, React, MySQL and MongoDB. Detail
-            oriented worker passionate about creating more efficient
-            applications.
+            Denver and started my journey. 6 months later I'm now a Full Stack Web
+            Developer. Skilled in JavaScript, HTML, CSS, React, Node.js, Express.js MongoDB
+            and MySQL. I'm detail oriented, passionate about creating more
+            efficient applications and always learning.
           </span>
-        </div>
-        <i class="fab fa-react fa-5x social " />
-        <i class="fab fa-js fa-5x social" />
-        <i class="fab fa-html5 fa-5x social" />
-        <i class="fab fa-css3-alt fa-5x social" />
+          </div>
+        <div className="center">
+        <i class="fab fa-js fa-3x social" />
+          <i class="fab fa-html5 fa-3x social" />
+          <i class="fab fa-css3-alt fa-3x social" />
+          <i class="fab fa-react fa-3x social " />
+          <i class="fab fa-node-js fa-3x social" />
+          <i class="icon-mongodb social" style={{fontSize:"3em"}} />
+          <i class="icon-mysql-alt social" style={{fontSize:"3em"}} />
+          </div>
+      </div>
       </div>
     </div>
     <ScrollToNext pageSelector="#section-2" />
