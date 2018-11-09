@@ -12,11 +12,20 @@ class ProjectModal extends React.Component {
             <Button
               node="a"
               target="_blank"
-              href={this.props.href}
-              style={{ backgroundColor: "#14a76c" }}
+              href={this.props.code}
+              style={{ backgroundColor: "#14a76c", marginRight: "5px" }}
               className="left"
             >
               View Site
+            </Button>
+            <Button
+              node="a"
+              target="_blank"
+              href={this.props.code}
+              style={{ backgroundColor: "#14a76c" }}
+              className="left"
+            >
+              View Code
             </Button>
             <button style={{color: "#14a76c"}} className="btn waves-effect waves-light btn-flat modal-action modal-close">
               Close

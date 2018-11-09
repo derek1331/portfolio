@@ -4,7 +4,8 @@
     "image": "/images/denver.PNG",
     "description": "OneDay in Denver is a day planner for those visiting Denver for just a day or those who are tired of doing the samething over and over again.",
     "tech": "Javacript, React.js, MongoDB, Passport.js, Bcrypt",
-    "demo": "https://dayindenver.herokuapp.com/"
+    "demo": "https://dayindenver.herokuapp.com/",
+    "code": "https://github.com/derek1331/OneDay-in-Denver"
 
   },
 
@@ -15,7 +16,8 @@
     "image": "/images/sandy.PNG",
     "description": "Concept for a Sandwich shop that only delivers for one hour each day. Like the countdown says everyone has from 12pm to 11am to submit their orders.",
     "tech": "Javacript, Node.js, Express, MySQL",
-    "demo": "https://sandwichdash.herokuapp.com/"
+    "demo": "https://sandwichdash.herokuapp.com/",
+    "code": "https://github.com/derek1331/sandwichdash2"
 
 
 
@@ -26,7 +28,8 @@
     "image": "/images/memory.PNG",
     "description": "Memory Game is a game where you click on image and get a point. The catch is you can't click on the same image twice and it shuffles after each click",
     "tech": "Javascript, React.js, Node.js",
-    "demo": "https://agile-lake-18261.herokuapp.com/"
+    "demo": "https://agile-lake-18261.herokuapp.com/",
+    "code": "https://github.com/derek1331/Memory-Game"
 
 
   },
@@ -36,7 +39,8 @@
     "image": "/images/gify.PNG",
     "description": "Giftastic is a simple application making use of the Giphy API to display gifs. It comes with predifined searches but also allows users to create their own.",
     "tech": "Javascript, jQuery, AJAX",
-    "demo": "https://derek1331.github.io/GifTastic/"
+    "demo": "https://derek1331.github.io/GifTastic/",
+    "code": "https://github.com/derek1331/GifTastic"
 
 
   },
@@ -46,7 +50,8 @@
     "image": "/images/space.PNG",
     "description": "Space Train Scheduler is an application that allows users to submit train information to a database and observe the train arrival time update in realtime. Anytime the database is updates with a new train or the page is refreshed the train times will be updated.",
     "tech": "Javascript, Moment.js, Firebase",
-    "demo": "https://derek1331.github.io/Space-Train-Scheduler/"
+    "demo": "https://derek1331.github.io/Space-Train-Scheduler/",
+    "code": "https://github.com/derek1331/Space-Train-Scheduler"
 
   },
   {
@@ -55,7 +60,8 @@
     "image": "/images/burger.PNG",
     "description": "Burger Time allows you to create burgers that are saved in the database and then can either be left for other people to devour (Select and delete) or eaten by your self!",
     "tech": "Javacript, Handlebars.js, Node.js, Express.js, MySQL, Sequelize",
-    "demo": "https://burgerburgertime.herokuapp.com/"
+    "demo": "https://burgerburgertime.herokuapp.com/",
+    "code": "https://github.com/derek1331/Burger-Time"
 
   }
 
