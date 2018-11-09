@@ -12,7 +12,7 @@ class ProjectModal extends React.Component {
             <Button
               node="a"
               target="_blank"
-              href={this.props.code}
+              href={this.props.demo}
               style={{ backgroundColor: "#14a76c", marginRight: "5px" }}
               className="left"
             >
