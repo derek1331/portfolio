@@ -5,8 +5,8 @@ import { CardPanel } from "react-materialize";
 class Cardy extends React.Component {
   render() {
     return (
-      <CardPanel className="col s4 center">
-        <span style={{fontSize: "1.64rem", color: "#272727", paddingBottom: "30px"}}>{this.props.title}</span>
+      <CardPanel className="col s4 center" style={{backgroundColor: "#272727"}}>
+        <span style={{fontSize: "1.64rem", color: "white", paddingBottom: "30px"}}>{this.props.title}</span>
         {this.props.children}
       </CardPanel>
     );

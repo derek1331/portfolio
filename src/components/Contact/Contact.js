@@ -22,8 +22,8 @@ const Contact = () => (
       
       <div className="row">
         <div className="col s12 center-align">
-        <img style={{width: "350px", height: "350px"}}
-            src="/images/derek1.jpg"
+        <img style={{width: "300px", height: "300px"}}
+            src="/images/derek.gif"
             alt=""
             class="circle responsive-img"
             // style={{ height: "300px", width: "300px" }}
@@ -31,7 +31,7 @@ const Contact = () => (
             <br></br>
           <a href="https://github.com/derek1331" target="_blank" ><Icon icon="fab fa-github fa-5x social"/></a>
           <a href="https://www.linkedin.com/in/derekreed1331/" target="_blank" ><Icon icon="fab fa-linkedin fa-5x social"/></a>
-          <a href="mailto:1331derek@gmail.com" target="_blank" ><Icon icon="fas fa-envelope fa-5x social"/></a>
+          <a href="mailto:derekr1331@gmail.com" target="_blank" ><Icon icon="fas fa-envelope fa-5x social"/></a>
 
 
 
