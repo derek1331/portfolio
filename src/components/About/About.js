@@ -8,16 +8,16 @@ const About = () => (
   <div id="section-1" className="hero about ">
     <div className=" container subject">
       <div className="row">
-        <div className="col s4 offset-s4 header-wrapper">
+        <div className="col m6 offset-m3 s12 header-wrapper center">
           <h1 className="page-header"> About</h1>
         </div>
       </div>
       <div className="row">
         <div
-          className="col s6 offset-s3"
+          className="col m6 offset-m3 s12"
         >
         <div  style={{ border: "1px solid white", padding: "24px" }}>
-          <span className="left-align" style={{ fontSize: "1.3rem" }}>
+          <span className="left-align about-bio" style={{ fontSize: "1.3rem" }}>
             I was always good with computers growing up but that's where it
             ended. I figured it was time to be great with them. So I moved to
             Denver and started my journey. 6 months later I'm now a Full Stack Web

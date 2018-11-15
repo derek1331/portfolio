@@ -7,7 +7,7 @@ const Contact = () => (
   <div id="section-3" className="hero contact">
     <div className="subject container">
       <div className="row">
-        <div className="col s4 offset-s4 center header-wrapper">
+        <div className="col m6 offset-m3 s12 header-wrapper center">
           <h1 className="page-header" >Contact</h1>
 
 
