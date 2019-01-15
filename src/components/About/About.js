@@ -18,12 +18,10 @@ const About = () => (
         >
         <div  style={{ border: "1px solid white", padding: "24px" }}>
           <span className="left-align" style={{ fontSize: "1.3rem" }}>
-            I was always good with computers growing up but that's where it
-            ended. I figured it was time to be great with them. So I moved to
-            Denver and started my journey. 6 months later I'm now a Full Stack Web
-            Developer. Skilled in JavaScript, HTML, CSS, React, Node.js, Express.js MongoDB
-            and MySQL. I'm detail oriented, passionate about creating more
-            efficient applications and always learning.
+          I was always good with computers growing up but that's where it ended. It was time to be great with 
+          them, so I moved to Denver and began my journey. I'm now proud to be a Full-Stack Web Developer. Skilled in 
+          JavaScript, HTML, CSS, React, Angular, Node.js, Express.js, MongoDB and MySQL. I'm detail oriented, passionate 
+          about creating more efficient applications and always learning.
           </span>
           </div>
         <div className="center">
