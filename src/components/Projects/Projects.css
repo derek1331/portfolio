@@ -9,3 +9,32 @@
         line-height: 18pt !important;
     }
 }
+
+.page-header-project{
+    border-top: 3px;
+    border-bottom: 0px;
+    border-color: #272727;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    display: table;
+    margin: 0 auto;
+    color: #272727;
+
+}
+
+@media screen and (max-width: 414px) {
+    .page-header-project {
+        color: white;
+        border: none;
+        padding-top: 20px;
+    }
+    .projects{
+        background-color: #272727;
+    }
+    .page-header{
+        border: none;
+        padding-top: 20px;
+    }
+
+}
