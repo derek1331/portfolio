@@ -4,7 +4,7 @@
     "image": "/images/denver.PNG",
     "description": "OneDay in Denver is a day planner for those visiting Denver for just a day or those who are tired of doing the samething over and over again.",
     "tech": "Javacript, React.js, MongoDB, Passport.js, Bcrypt",
-    "demo": "https://dayindenver.herokuapp.com/",
+    "demo": "https://onedayindenver.herokuapp.com/",
     "code": "https://github.com/derek1331/OneDay-in-Denver"
 
   },
